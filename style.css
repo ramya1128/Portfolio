@@ -1,0 +1,157 @@
+body{
+    text-align: center;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgb(108, 108, 222);
+}
+header h1{
+    color: aliceblue;
+    padding: 10px;
+}
+header nav ul{
+    padding: 10px;
+}
+header nav ul li{
+    color: black;
+    display: inline;
+    padding: 40px;
+   
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#Home h2{
+    text-align: center;
+}
+#Home img{
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 50%; 
+}
+#Skills ul li{
+    display: inline;
+
+}
+#Contact{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('spy.jpg');
+}
+.container1{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    background:rgb(88, 88, 231);
+    box-shadow: 0 0 1rem hsla(0 0 0/16);
+    border-radius: 0.5rem;
+    
+}
+.container2{
+    padding: 20px;
+}
+.container2 h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.Cform{
+    display: grid;
+    row-gap: 1rem;
+}
+.Cform input, .Cform textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: white;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: black;
+    border-radius: 0.4rem;
+}
+.Cform textarea{
+    resize: none;
+    height: 200px;
+}
+.Cform .send-button{
+    border: none;
+    outline: none;
+    background: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+.Cform .send-button:hover{
+    background: rgb(128, 44, 206) ;
+    transition: 0.3s all linear;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    
+}
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:rgb(108, 108, 222) ;
+}
+.foot1{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+}
+.foot2 a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.foot1 a i{
+    font-size: 2em;
+    color: blue;
+    opacity: 0.9;
+}
+.foot1 a:hover{
+    background: rgb(232, 136, 85);
+    transition: 0.5s;
+}
+.foot1 a:hover i{
+    color: red;
+    transition: 0.5s;
+}
+.bar{
+    background-color: rgb(127, 154, 228);
+    padding: 20px;
+    text-align: center;
+}
+.bar p{
+    color: white;
+}
+.foot1 p{
+    color: white;
+}
